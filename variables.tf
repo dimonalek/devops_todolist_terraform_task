@@ -1,7 +1,7 @@
 variable "location" {
   description = "Azure region for all resources"
   type        = string
-  default     = "uksouth"
+  default     = "westus3"
 }
 
 variable "resource_group_name" {
@@ -55,7 +55,7 @@ variable "vm_name" {
 variable "vm_size" {
   description = "Virtual machine size"
   type        = string
-  default     = "Standard_B1s"
+  default     = "Standard_B2ats_v2"
 }
 
 variable "ssh_key_public" {
